@@ -299,3 +299,44 @@ footer div ul li a{
     border-radius: 2rem;
     background: var(--white);
 }
+
+.contact-intro{
+    margin-top: 8rem;
+    border: dotted 5px var(--blue);
+    padding:2rem;
+    border-radius: 2rem;
+    background: var(--white);
+}
+
+.message form{
+    background: var(--yellow);
+    border: solid 5px var(--orange);
+    border-radius: 2rem;
+}
+
+/* .message form input{
+    background: var(--yellow);
+    border: solid 3px var(--orange);
+    border-radius: 2rem;
+}
+
+
+
+.message form input::placeholder{
+    color: #000;
+} */
+
+.message form textarea{
+    background: var(--lightyellow);
+    border: solid 2px var(--orange);
+    border-radius: 2rem;
+    resize: none;
+}
+
+.message form textarea:focus{
+    background: var(--lightyellow);
+    border: solid 2px var(--green);
+    border-radius: 1rem;
+    box-shadow: none;
+}
+
